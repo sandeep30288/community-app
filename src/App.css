@@ -1,0 +1,53 @@
+
+ 
+ /*
+  * General good-look styles, not mandatory.
+  */
+ body {
+   font-size: 20px;
+ }
+ 
+ .table-row {
+   border-bottom: 2px solid #e0e0e0;
+   border-collapse: collapse;
+   padding-top: 5px;
+   display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+
+ .col {
+   flex: 1;
+ }
+ img {
+   width: 100px;
+
+ }
+ 
+ .table-row.header {
+   background-color: #FFEEDB;
+   font-weight: bold;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: wrap;
+ }
+ /* Some borders to show the behaviour. Uncomment to see it in action */
+ /*
+ .text-2, .num-2 {
+   border: 1px solid green;
+   padding: 2px;
+   margin: 2px;
+ }
+ 
+ .text-4, .num-4 {
+   border: 1px solid red;
+   margin: 2px;
+ }
+ */
